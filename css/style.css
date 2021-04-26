@@ -1,147 +1,251 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    text-align: center;
-}
-
-#title {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    color: black;
-    top: 30%;
-}
-
-#imgs {
-    height: 910px;
-}
-
-.navbar {
-    background: rgba(0, 0, 0, 0.92);
-}
-
-.nav-item {
-    padding: 0 40px;
-}
-
-.iMac h2 {
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    margin-top: 150px;
-    font-weight: 520;
-    font-size: 56px;
-}
-
-.iMac h3 {
-    font-size: 28px;
-}
-
-.iMac {
-    background-color: #FAFAFA;
-}
-
-.iMac a {
-    padding: 20px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.iMac p {
-    color: #646161af;
-}
-
-.iPhone {
-    margin-top: 10px;
-    background-color: #EFE5FE;
-}
-
-.iPhone h2 {
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-weight: 520;
-    font-size: 56px;
-}
-
-.iPhone h3 {
-    font-size: 28px;
-}
-
-.iPhone a {
-    padding: 20px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.iPhone p {
-    color: #646161af;
-}
-
-.iPhoneP {
-    margin-top: 10px;
-    background-color: #000000;
-    color: white;
-}
-
-.iPhoneP h2 {
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-weight: 520;
-    font-size: 56px;
-}
-
-.iPhoneP h3 {
-    font-size: 28px;
-}
-
-.iPhoneP a {
-    padding: 20px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.iPhoneP img {
-    align-items: center;
-    margin-left: 200px;
-}
-
-.iPhone img {
-    align-items: center;
-    margin-left: 200px;
-}
-
-.card img {
-    height: 580px;
-}
-
-.card-title {
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 3;
-}
-
-.card-title p {
-    color: #646161af;
-}
-
-.card-title h2 {
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-weight: 520;
-    font-size: 56px;
-}
-
-.card-title h3 {
-    font-size: 28px;
-}
-
-.card-title a {
-    padding: 20px;
-    font-size: 20px;
-    text-decoration: none;
-}
-
-.card-title img {
-    width: 120px;
-    height: 100px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        text-align: center;
+    }
+    
+    #title {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 25px;
+        color: black;
+        top: 30%;
+    }
+    
+    #imgs {
+        height: 910px;
+    }
+    
+    .navbar {
+        background: rgba(0, 0, 0, 0.92);
+    }
+    
+    .nav-item {
+        padding: 0 40px;
+    }
+    
+    .iMac h2 {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        margin-top: 150px;
+        font-weight: 520;
+        font-size: 56px;
+    }
+    
+    .iMac h3 {
+        font-size: 28px;
+    }
+    
+    .iMac {
+        background-color: #FAFAFA;
+    }
+    
+    .iMac a {
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .iMac p {
+        color: #646161af;
+    }
+    
+    .iPhone {
+        margin-top: 10px;
+        background-color: #EFE5FE;
+    }
+    
+    .iPhone h2 {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 520;
+        font-size: 56px;
+    }
+    
+    .iPhone h3 {
+        font-size: 28px;
+    }
+    
+    .iPhone a {
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .iPhone p {
+        color: #646161af;
+    }
+    
+    .iPhoneP {
+        margin-top: 10px;
+        background-color: #000000;
+        color: white;
+    }
+    
+    .iPhoneP h2 {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 520;
+        font-size: 56px;
+    }
+    
+    .iPhoneP h3 {
+        font-size: 28px;
+    }
+    
+    .iPhoneP a {
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .iPhoneP img {
+        align-items: center;
+        margin-left: 200px;
+    }
+    
+    .iPhone img {
+        align-items: center;
+        margin-left: 200px;
+    }
+    
+    .iPad p {
+        color: #646161af;
+    }
+    
+    .iPad {
+        margin-top: 10px;
+        background-color: #000000;
+        color: white;
+    }
+    
+    .iPad h2 {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 520;
+        font-size: 56px;
+    }
+    
+    .iPad h3 {
+        font-size: 28px;
+    }
+    
+    .iPad a {
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .watch {
+        margin-top: 10px;
+        background-color: #000000;
+        color: white;
+    }
+    
+    .watch h2 {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 520;
+        font-size: 56px;
+    }
+    
+    .watch h3 {
+        font-size: 28px;
+    }
+    
+    .watch a {
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .maes p {
+        color: #646161af;
+    }
+    
+    .maes {
+        margin-top: 10px;
+    }
+    
+    .maes h2 {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 520;
+        font-size: 56px;
+    }
+    
+    .maes h3 {
+        font-size: 28px;
+    }
+    
+    .maes a {
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .plano p {
+        font-size: 30px;
+    }
+    
+    .plano {
+        margin-top: 10px;
+        color: white;
+    }
+    
+    .plano h2 {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 520;
+        font-size: 56px;
+    }
+    
+    .plano h3 {
+        font-size: 28px;
+    }
+    
+    .plano a {
+        color: green;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .airtag p {
+        font-size: 30px;
+    }
+    
+    .airtag {
+        margin-top: 10px;
+    }
+    
+    .airtag h2 {
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-weight: 520;
+        font-size: 56px;
+    }
+    
+    .airtag h3 {
+        font-size: 28px;
+    }
+    
+    .airtag a {
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .table td {
+        margin: auto;
+        border-top: 10px solid white;
+        border-left: 10px solid white;
+        border-right: 10px solid white;
+    }
+    
+    .copy p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 4px;
+        padding-top: 30px;
+        margin: 0;
+    }
+    
+    .copy {
+        color: white;
+        background: rgba(0, 0, 0, 0.92);
+        height: 100px;
+    }
